@@ -17,6 +17,7 @@ from threading import Thread
 # pyinstaller -F -w BilibiliCrawler.py --icon = logo。ico
 
 
+
 def rule_dir(check_dir: str) -> str:
     """
     document: 本函数功能为将路径规范化, 不合法的字符被删除
